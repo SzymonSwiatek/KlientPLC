@@ -1,0 +1,35 @@
+.App {
+  text-align: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+  right: 10vw;
+  bottom: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+    animation-iteration-count: 1;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: translate(0, -1000px);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
